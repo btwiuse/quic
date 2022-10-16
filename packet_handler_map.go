@@ -112,7 +112,7 @@ func newPacketHandlerMap(
 	if err := setReceiveBuffer(c, logger); err != nil {
 		if !strings.Contains(err.Error(), "use of closed network connection") {
 			receiveBufferWarningOnce.Do(func() {
-				if disable, _ := strconv.ParseBool(os.Getenv("QUIC_GO_DISABLE_RECEIVE_BUFFER_WARNING")); disable {
+				if disable, _ := strconv.ParseBool(os.Getenv("QUIC_GO_DISABLE_RECEIVE_BUFFER_WARNING")); true {
 					return
 				}
 				log.Printf("%s. See https://github.com/lucas-clemente/quic-go/wiki/UDP-Receive-Buffer-Size for details.", err)
