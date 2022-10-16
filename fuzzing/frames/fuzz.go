@@ -3,8 +3,8 @@ package frames
 import (
 	"fmt"
 
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/internal/wire"
+	"github.com/btwiuse/quic/internal/protocol"
+	"github.com/btwiuse/quic/internal/wire"
 )
 
 const version = protocol.VersionTLS

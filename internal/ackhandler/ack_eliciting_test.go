@@ -3,7 +3,7 @@ package ackhandler
 import (
 	"reflect"
 
-	"github.com/lucas-clemente/quic-go/internal/wire"
+	"github.com/btwiuse/quic/internal/wire"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

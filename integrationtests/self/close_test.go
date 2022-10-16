@@ -6,12 +6,12 @@ import (
 	"net"
 	"time"
 
-	"github.com/lucas-clemente/quic-go/internal/protocol"
+	"github.com/btwiuse/quic/internal/protocol"
 
-	"github.com/lucas-clemente/quic-go"
+	"github.com/btwiuse/quic"
 
-	quicproxy "github.com/lucas-clemente/quic-go/integrationtests/tools/proxy"
-	"github.com/lucas-clemente/quic-go/internal/utils"
+	quicproxy "github.com/btwiuse/quic/integrationtests/tools/proxy"
+	"github.com/btwiuse/quic/internal/utils"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

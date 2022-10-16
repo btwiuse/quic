@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/lucas-clemente/quic-go/quicvarint"
+	"github.com/btwiuse/quic/quicvarint"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

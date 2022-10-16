@@ -1,4 +1,4 @@
-module github.com/lucas-clemente/quic-go
+module github.com/btwiuse/quic
 
 go 1.18
 

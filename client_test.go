@@ -8,10 +8,10 @@ import (
 	"os"
 	"time"
 
-	mocklogging "github.com/lucas-clemente/quic-go/internal/mocks/logging"
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/internal/utils"
-	"github.com/lucas-clemente/quic-go/logging"
+	mocklogging "github.com/btwiuse/quic/internal/mocks/logging"
+	"github.com/btwiuse/quic/internal/protocol"
+	"github.com/btwiuse/quic/internal/utils"
+	"github.com/btwiuse/quic/logging"
 
 	"github.com/golang/mock/gomock"
 

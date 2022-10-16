@@ -3,8 +3,8 @@ package wire
 import (
 	"bytes"
 
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/quicvarint"
+	"github.com/btwiuse/quic/internal/protocol"
+	"github.com/btwiuse/quic/quicvarint"
 )
 
 // A MaxStreamDataFrame is a MAX_STREAM_DATA frame

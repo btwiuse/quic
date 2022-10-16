@@ -10,9 +10,9 @@ import (
 	time "time"
 
 	gomock "github.com/golang/mock/gomock"
-	ackhandler "github.com/lucas-clemente/quic-go/internal/ackhandler"
-	protocol "github.com/lucas-clemente/quic-go/internal/protocol"
-	wire "github.com/lucas-clemente/quic-go/internal/wire"
+	ackhandler "github.com/btwiuse/quic/internal/ackhandler"
+	protocol "github.com/btwiuse/quic/internal/protocol"
+	wire "github.com/btwiuse/quic/internal/wire"
 )
 
 // MockSendStreamI is a mock of SendStreamI interface.
