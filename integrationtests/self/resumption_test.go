@@ -7,7 +7,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/quic-go/quic-go"
+	"github.com/webtransport/quic-go"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

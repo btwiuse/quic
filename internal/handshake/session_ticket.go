@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/wire"
-	"github.com/quic-go/quic-go/quicvarint"
+	"github.com/webtransport/quic-go/internal/wire"
+	"github.com/webtransport/quic-go/quicvarint"
 )
 
 const sessionTicketRevision = 2

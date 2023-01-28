@@ -11,11 +11,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/quic-go/quic-go"
-	mockquic "github.com/quic-go/quic-go/internal/mocks/quic"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/utils"
-	"github.com/quic-go/quic-go/quicvarint"
+	"github.com/webtransport/quic-go"
+	mockquic "github.com/webtransport/quic-go/internal/mocks/quic"
+	"github.com/webtransport/quic-go/internal/protocol"
+	"github.com/webtransport/quic-go/internal/utils"
+	"github.com/webtransport/quic-go/quicvarint"
 
 	"github.com/golang/mock/gomock"
 	"github.com/quic-go/qpack"

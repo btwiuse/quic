@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/wire"
-	"github.com/quic-go/quic-go/quicvarint"
+	"github.com/webtransport/quic-go/internal/wire"
+	"github.com/webtransport/quic-go/quicvarint"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

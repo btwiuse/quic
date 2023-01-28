@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/qerr"
-	"github.com/quic-go/quic-go/internal/utils"
+	"github.com/webtransport/quic-go/internal/protocol"
+	"github.com/webtransport/quic-go/internal/qerr"
+	"github.com/webtransport/quic-go/internal/utils"
 )
 
 type connectionFlowController struct {
